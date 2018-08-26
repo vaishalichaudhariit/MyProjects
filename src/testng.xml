@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  <!--
+<suite name="TestNG Session Test Automation Suite" verbose="1" >
+  <test name="Differnet testng Feature Test" >
+    <classes>
+       <class name="com.test.TestNGBasics" />
+       <class name="com.test.GoogleTest" />
+       <class name="com.test.GoogleTitleTest" />
+    </classes>
+  </test>
+ </suite>
+ -->
+<suite name="TestNG Session Test Automation Suite for gmail" verbose="1" >
+  <test name="Login to gmail Test" >
+  <parameter name="url" value="https://www.gmail.com"/>
+  <parameter name="emailID" value="vaishalidchaudhari@gmail.com"/>
+    <classes>
+       <class name="com.parameters.ParameterTest" />
+    </classes>
+  </test>
+ </suite>
